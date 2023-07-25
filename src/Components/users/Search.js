@@ -30,7 +30,7 @@ const Search = () => {
     return (
         <div>
             <form onSubmit={onSubmit} className='form'>
-                <input type='text' name='text' placeholder='Search Users... I recommend searching for this guy: mcdustelroy :)' value={text} onChange={onChange}/>
+                <input type='text' name='text' placeholder='Search Users... I recommend searching for this guy: mcdustelroy' value={text} onChange={onChange}/>
                 <input type='submit' value='Search' className='btn btn-dark btn-block' />
             </form>
             {githubContext.users.length > 0 && (
